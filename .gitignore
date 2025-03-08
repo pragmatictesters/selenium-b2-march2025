@@ -8,6 +8,8 @@ target/
 
 ### logs ###
 /logs/
+**/*.log
+
 
 ### VS Code ###
 .vscode/
