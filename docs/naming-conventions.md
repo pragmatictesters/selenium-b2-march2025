@@ -28,8 +28,6 @@ com.pragmatictesters.utils
 - CheckoutPage
 - UserDetailsHelper
 
-
-
 ---
 
 ## Test Method Naming
@@ -43,6 +41,29 @@ public void testLoginWithValidUserCredentials()  {}
 public void testCheckoutWithEmptyCart()  {}
 public void testAddProductToCart()  {}
 ```
+
+---
+## Variable Naming 
+* Use lower camelCase for variable names.
+* Keep names meaningful and concise.
+```java
+String employeeNumber;  
+int maxLoginAttempts;  
+boolean isUserLoggedIn;
+```
+
+---
+## Constant Naming 
+* Use ALL CAPS with words separated by an underscore (_).
+* Constant names should clearly indicate the value they hold.
+```java
+public static final String BASE_URL = "https://www.saucedemo.com";  
+public static final int MAX_RETRY = 3;
+```
+
+
+Reference 
+1. [Coding conventions for Java Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
 
 
 
